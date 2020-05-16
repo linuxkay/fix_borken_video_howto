@@ -1,0 +1,22 @@
+sudo apt -y install docker-compose
+
+sudo gpasswd -a $USER docker
+
+mkdir /home/$USER/docker
+
+cd /home/$USER/docker
+
+wget https://raw.githubusercontent.com/ponchio/untrunc/master/Dockerfile
+
+sudo docker build -t docker-untrunc -f ./Dockerfile.txt .
+
+
+You need both the broken video and an sample working video (ideally from the same camera, if not the chances to fix it are slim).
+
+mkdir -p /home/$USER/untrunc/
+
+place broken.mp4 and sample.mp4 in /home/$USER/untrunc/
+
+s
+
+docker run -v $(pwd):/untrunc -it  docker-untrunc /untrunc/sample.mp4 /untrunc/broken.mp4
