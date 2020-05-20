@@ -16,3 +16,7 @@ Need broken video and sample video(ideally taken from same video camera.)
 ![need_2_videos](https://user-images.githubusercontent.com/9047935/82399006-2467ba80-9a8f-11ea-96e0-69e44d98ff41.png)
 
 Start untrunc once you have both videos ready.
+
+# Results
+fixed Video will be cretead.
+![video_fixed](https://user-images.githubusercontent.com/9047935/82399292-c7203900-9a8f-11ea-8ca3-38a1ce0cd407.png)
